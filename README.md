@@ -1,11 +1,11 @@
 # Homebrew Tap for Agent of Empires
 
-This is the official Homebrew tap for [Agent of Empires](https://github.com/nbrake/agent-of-empires) (`aoe`), a terminal session manager for AI coding agents.
+This is the official Homebrew tap for [Agent of Empires](https://github.com/njbrake/agent-of-empires) (`aoe`), a terminal session manager for AI coding agents.
 
 ## Installation
 
 ```bash
-brew tap nbrake/aoe
+brew tap njbrake/aoe
 brew install aoe
 ```
 
@@ -20,7 +20,7 @@ brew upgrade aoe
 
 ```bash
 brew uninstall aoe
-brew untap nbrake/aoe
+brew untap njbrake/aoe
 ```
 
 ## About
@@ -32,4 +32,4 @@ Agent of Empires provides a TUI dashboard to manage tmux sessions for AI coding 
 - MCP server configuration
 - Multi-profile support
 
-For more information, see the [main repository](https://github.com/nbrake/agent-of-empires).
+For more information, see the [main repository](https://github.com/njbrake/agent-of-empires).
