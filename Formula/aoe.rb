@@ -7,22 +7,22 @@ class Aoe < Formula
   on_macos do
     on_arm do
       url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-darwin-arm64.tar.gz"
-      sha256 "73dfe1f97bce9e23d464566aa386f8c9728f133d5e4033d813da1a8f3ada0e9c"
+      sha256 "f3a0623abbf064ace005f8e9562f6eaad851fba5fbf417eb6ac4d44eaf501c43"
     end
     on_intel do
       url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-darwin-amd64.tar.gz"
-      sha256 "c5fd8e53dcee4cd29c1b87cf90e4463fc15cd64d376d420c235590dcc6621091"
+      sha256 "ca180ed11120db66b6cd829245b1ae959cb93d7c61aff470a1673e2638e783d4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-linux-arm64.tar.gz"
-      sha256 "0731e4180480ab99be599c926d88d9e93b1555988ad435eb29a9f0b1d92daad9"
+      sha256 "cca8986c7c5f78e5a9a6f959f689f8cf6f198359d0b42ea271d2e506f2f585c1"
     end
     on_intel do
       url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-linux-amd64.tar.gz"
-      sha256 "5b84cdd1bc92c640782851821035b68b01506464df6938b0d9076db69de07cc6"
+      sha256 "7dc451bb26bcc56f2dd582c8606316564b5c9a9d1450f1964979b72c7cbb961d"
     end
   end
 
