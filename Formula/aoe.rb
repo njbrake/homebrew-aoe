@@ -1,28 +1,28 @@
 class Aoe < Formula
   desc "Terminal session manager for AI coding agents"
   homepage "https://github.com/njbrake/agent-of-empires"
-  version "0.12.3"
+  version "0.12.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-darwin-arm64.tar.gz"
-      sha256 "f3a0623abbf064ace005f8e9562f6eaad851fba5fbf417eb6ac4d44eaf501c43"
+      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.4/aoe-darwin-arm64.tar.gz"
+      sha256 "590c42161f2be05a2d5ef492628cda08bd06292385f2a2e148481e9e7c593d22"
     end
     on_intel do
-      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-darwin-amd64.tar.gz"
-      sha256 "ca180ed11120db66b6cd829245b1ae959cb93d7c61aff470a1673e2638e783d4"
+      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.4/aoe-darwin-amd64.tar.gz"
+      sha256 "34e066b0bb6986e1865818dcde1de0ea6b9e394c462bd3b956cb914a0ea84aef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-linux-arm64.tar.gz"
-      sha256 "cca8986c7c5f78e5a9a6f959f689f8cf6f198359d0b42ea271d2e506f2f585c1"
+      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.4/aoe-linux-arm64.tar.gz"
+      sha256 "bb3f02f9f0a0c398ceec3468f0c934d1cfb4852c30e83d972461f2e7ec61a5d0"
     end
     on_intel do
-      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.3/aoe-linux-amd64.tar.gz"
-      sha256 "7dc451bb26bcc56f2dd582c8606316564b5c9a9d1450f1964979b72c7cbb961d"
+      url "https://github.com/njbrake/agent-of-empires/releases/download/v0.12.4/aoe-linux-amd64.tar.gz"
+      sha256 "62633d7b20a85d9a2bf56a2ec929900c4448e675f9bbf945ea4fc8f0edd51a2d"
     end
   end
 
